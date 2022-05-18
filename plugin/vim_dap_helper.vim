@@ -6,3 +6,4 @@ function! LoadLaunchJson()
 endfunction
 
 command! LoadLaunchJson call LoadLaunchJson()
+command Test lua require 'plug'.debug()
